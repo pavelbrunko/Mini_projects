@@ -1,11 +1,10 @@
-import pyqrcode 
-from pyqrcode import QRCode
+import pyqrcode
 
 # String for qr-code
-S = 'https://vk.com/p.brnk'
+S = 'https://dizyme.aicidlab.itmo.ru/'
 
 # QR-code creation
 url = pyqrcode.create(S)
 
 # Creating and saving PNG file 'myqr.png'
-url.svg('myqrcode.svg', scale=8)
+url.svg('dizyme.svg', scale=8)
